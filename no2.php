@@ -1,18 +1,15 @@
 <?php
 
-    $no1 = 12;
-    $no2 = 22;
-    $no3 = 44;
+    $bilangan1 = 10;
+    $bilangan2 = 20;
+    $bilangan3 = 45;
 
-    $terbesar = $no1;
-
-    if ($no2 > $terbesar) {
-        $terbesar = $no2;
-    };
-
-    if ($no3 > $terbesar) {
-        $terbesar = $no3;
-    };
-
-    echo"nilai terbesar dari ($no1, $no2, dan $no3)"
+    if ($bilangan1 > $bilangan2 && $bilangan1 > $bilangan3) {
+        echo "Bilangan terbesar adalah: " . $bilangan1;
+    } elseif ($bilangan2 > $bilangan1 && $bilangan2 > $bilangan3) {
+        echo "Bilangan terbesar adalah: " . $bilangan2;
+    } else {
+        echo "Bilangan terbesar adalah: " . $bilangan3;
+    }
+    
 ?>

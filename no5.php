@@ -1,5 +1,5 @@
 <?php
-    $i = (int)readline("masukan angka: ");
+    $i = 1;
     while ($i <= 50) {
         if ($i % 2 == 0) {
             echo "|$i bilangan genap| ";
